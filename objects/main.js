@@ -11,7 +11,32 @@ const anotherObj ={
      beverages:{
         morning :"milk",
         afternoon :"coffee"
-     }
+     },
+     action:function(){
+        return "Hello World";
+    }
 
 };
 console.log(anotherObj.hobies);
+console.log(anotherObj.action());
+
+
+const band={
+    vocals :" robert plant",
+    guitar :"jimmy page",
+    bass :"john paul jones",
+    drum :"john bonham"
+};
+// it passes all the keys
+console.log(Object.keys(band));
+// it passes all the objects value.
+console.log(Object.values(band));
+
+for(let job in band){
+    console.log(`${job},${band[job]}`);
+}
+
+// destructing by providing values
+const{ guitar : variable ,bass: variety} =band;
+console.log(variable);
+console.log(variety);
