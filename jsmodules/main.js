@@ -21,3 +21,7 @@ console.log(Guitar.default());
 console.log(Guitar.shredding());
 console.log(Guitar.plucking());
 
+import user from "./user.js";
+const me = new user("email@gmail.com","Prachi");
+console.log(me);
+console.log(me.greeting());
