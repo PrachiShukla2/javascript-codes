@@ -10,3 +10,8 @@ const promise = new Promise((resolve ,reject ) =>{
     }
 });
 console.log(promise);
+
+// then is basically used to resolve the promise 
+promise.then(value =>{
+    console.log(value);
+})
