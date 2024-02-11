@@ -10,3 +10,10 @@ function batibhujao(){
     document.getElementById("image") .src = "pic_bulboff.gif";
 }
 
+function sum(){
+    document.write(5+6);
+}
+
+function diff(){
+   window.alert(6-9);
+}
