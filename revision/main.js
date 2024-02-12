@@ -10,6 +10,8 @@ function batibhujao(){
     document.getElementById("image") .src = "pic_bulboff.gif";
 }
 
+// hosting is simply moving to the top
+
 function sum(){
     document.write(5+6);
 }
@@ -17,3 +19,5 @@ function sum(){
 function diff(){
    window.alert(6-9);
 }
+
+
