@@ -20,4 +20,12 @@ function diff(){
    window.alert(6-9);
 }
 
+function myProduct(){
+    document.write(4*5) ;
+    // return a*b;
+}
+// document.getElementById("demo").innerHTML = x;
+
+
+
 
