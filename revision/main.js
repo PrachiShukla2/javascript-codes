@@ -25,7 +25,14 @@ function myProduct(){
     // return a*b;
 }
 // document.getElementById("demo").innerHTML = x;
+// any real life entity is object 
 
+const age= {
+    name: 'John'
+};
+function lastName(){
+   document.getElementById("demo").innerHTML = age.lastName;
+}
 
 
 
