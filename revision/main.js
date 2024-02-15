@@ -27,12 +27,13 @@ function myProduct(){
 // document.getElementById("demo").innerHTML = x;
 // any real life entity is object 
 
-const age= {
-    name: 'John'
-};
-function lastName(){
-   document.getElementById("demo").innerHTML = age.lastName;
-}
+// const employee= {
+//     name: 'John',
+//     lastName :"Mathew"
+// };
+// function lastName(){
+//    document.getElementById("demo").innerHTML = employee.lastName;
+// }
 
 
 
