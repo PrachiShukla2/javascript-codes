@@ -17,3 +17,18 @@ console.log(output);
 
 // let dated = new date().todatestring();
 // console.log(dated);
+let text = "abcdefghijklmnopqrstuvwxyz";
+let length = text.length;
+console.log(length);
+let position = text.charAt(5);
+console.log(position);
+
+let code = text.charCodeAt(5);
+console.log(code);
+
+let place = text.at(5);
+console.log(place);
+
+// at() supports negative indexes while char At() doesnot 
+
+
