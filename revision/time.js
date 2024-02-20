@@ -30,5 +30,9 @@ let place = text.at(5);
 console.log(place);
 
 // at() supports negative indexes while char At() doesnot 
+// js supports two type of numbers taht is with or without decimals 
+// 3.12
+// 22
+// if we add numbers and strings there will we concatenation
 
 
