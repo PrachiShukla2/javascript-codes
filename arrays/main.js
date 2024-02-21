@@ -46,3 +46,4 @@ const aA =["p","q","r"];
 const aB =["s","t","u"];
 let ab =aA.concat(aB);
 console.log(ab);
+
