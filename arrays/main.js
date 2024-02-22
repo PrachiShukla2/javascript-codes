@@ -47,3 +47,6 @@ const aB =["s","t","u"];
 let ab =aA.concat(aB);
 console.log(ab);
 
+// getElementById is a method innerhtml is a property of html
+
+
