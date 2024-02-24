@@ -12,3 +12,7 @@ document.getElementById("demo").innerHTML =text;
 }
 
 
+
+// to change the style of html use the syntax :
+// document.getElementById(id).style.property =new style
+
