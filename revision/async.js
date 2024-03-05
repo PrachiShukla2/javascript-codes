@@ -35,3 +35,14 @@ let myPro = new Promise(function(myResolve, myReject) {
     function(value) {myDisplayer(value);},
     function(error) {myDisplayer(error);}
   );
+
+
+  // asyc makes a function return a promise 
+  // await makes a function wait for a promise
+
+  // keyword asnyc before a function makes the function return a promise 
+  async function getData() {
+    return "hello";
+  }
+  // return is her acting as a promise 
+  
