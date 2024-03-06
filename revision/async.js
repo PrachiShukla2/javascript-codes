@@ -45,4 +45,14 @@ let myPro = new Promise(function(myResolve, myReject) {
     return "hello";
   }
   // return is her acting as a promise 
+  // for every async func there is a await function
+
+  async function myCoded(){
+    let myCode = new Promise(function(resolve, reject){
+      resolve("OK");
+    });
+    document.getElementById("demo").innerHTML=await myCode;
+  }
+  myCoded();
   
+  // resolve and reject are predefined by js 
