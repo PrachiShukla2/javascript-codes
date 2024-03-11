@@ -10,3 +10,12 @@
 // if a number cannot be converted nan is returned 
 // parsefloat returns a float as lyk parseint returns a int 
 // they both are global methods 
+// negative indexing cannot be used in arrays 
+// if u want to concat more then one array follow the following steps 
+const array1 = ["ram","rami"];
+const array2 = ["mom","momi"];
+const array3 = ["pop","popi"];
+const newArray = array1.concat(array2,array3);
+document.getElementById("demo").innerHTML = newArray;
+// flatteningan array is the process of reducing the dimensionality of an array 
+// it is useful when u want to convert a multidimentional array into one dimensional arrray  
