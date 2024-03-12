@@ -19,3 +19,8 @@ const newArray = array1.concat(array2,array3);
 document.getElementById("demo").innerHTML = newArray;
 // flatteningan array is the process of reducing the dimensionality of an array 
 // it is useful when u want to convert a multidimentional array into one dimensional arrray  
+
+// to find min and max in array using sort 
+const points = [40 ,200,28 ];
+points.sort(function(a,b){return a-b});
+document.getElementById("demo").innerHTML = points[0];
