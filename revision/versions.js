@@ -24,3 +24,25 @@ document.getElementById("demo").innerHTML = newArray;
 const points = [40 ,200,28 ];
 points.sort(function(a,b){return a-b});
 document.getElementById("demo").innerHTML = points[0];
+const numbers = [45,4,9,16,25];
+let txt = "";
+numbers.forEach(myFunction);
+function myFunction(value,index,array){
+    txt += value + "<br>";}
+// foreach function takes 3 arguments = the item value, the item index ,the array itself
+// five different ways of creating date objects 
+new Date()
+new Date( date string)
+const d = new Date("October 13, 2014 11:13:00");
+const d = new Date("2022-03-25");
+new Date( year,month)
+new Date(year ,month ,day)
+new Date(year,month,day,hours)
+new Date(year,month,day,hours,minutes)
+new Date(year,month,day,hours,minutes,seconds)
+new Date(year,month,day,hours,minutes,seconds,ms)
+new Date(miliseconds)
+
+
+
+// new date year month se strt 
