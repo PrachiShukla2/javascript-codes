@@ -38,6 +38,7 @@ const d = new Date("2022-03-25");
 new Date( year,month)
 const d = new Date(2018, 11, 24, 10, 33, 30, 0);
 // 7 numbers specify year, month, day, hour, minute, second, and millisecond (in that order):
+// 6 numbers specify year ,month ,day,hour,minute,second
 new Date(year ,month ,day)
 new Date(year,month,day,hours)
 new Date(year,month,day,hours,minutes)
@@ -47,4 +48,4 @@ new Date(miliseconds)
 
 
 
-// new date year month se strt 
+// using 6 4 3 2 strt
