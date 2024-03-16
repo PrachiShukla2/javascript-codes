@@ -39,13 +39,20 @@ new Date( year,month)
 const d = new Date(2018, 11, 24, 10, 33, 30, 0);
 // 7 numbers specify year, month, day, hour, minute, second, and millisecond (in that order):
 // 6 numbers specify year ,month ,day,hour,minute,second
+// 5 numbers specify year , month ,day , hour,minute
+// 4 numbers specify year ,month ,day,hour
+// 3 numbers specify year ,month ,day 
+// 2 numbers specify year ,month 
+// omiting month will be treated as milliseconds
+// js stores dates as number of miliseconds ,zero time 24 hours is 86,400000 miliseconds
+
 new Date(year ,month ,day)
 new Date(year,month,day,hours)
 new Date(year,month,day,hours,minutes)
 new Date(year,month,day,hours,minutes,seconds)
 new Date(year,month,day,hours,minutes,seconds,ms)
 new Date(miliseconds)
-
-
-
-// using 6 4 3 2 strt
+// there are 3 types of dates input formats 
+// 1. ISO         2024-03-25
+// 2.short date   03/25/2024
+// 3. long date   Mar 25 2024 or 25 Mar 2024
