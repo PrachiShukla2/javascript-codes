@@ -56,3 +56,10 @@ new Date(miliseconds)
 // 1. ISO         2024-03-25
 // 2.short date   03/25/2024
 // 3. long date   Mar 25 2024 or 25 Mar 2024
+
+const date = new Date();
+// it is used to display date directly 
+
+// math objeccts 
+// it allows u to perform mathematical tasks on numbers
+// syntax of math property is Math.property
