@@ -63,3 +63,4 @@ const date = new Date();
 // math objeccts 
 // it allows u to perform mathematical tasks on numbers
 // syntax of math property is Math.property
+// currently working on innobyte project
