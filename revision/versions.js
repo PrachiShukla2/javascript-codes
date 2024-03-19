@@ -63,4 +63,9 @@ const date = new Date();
 // math objeccts 
 // it allows u to perform mathematical tasks on numbers
 // syntax of math property is Math.property
-// currently working on innobyte project
+                   
+// to display  math method to create a random number = let r math.random();
+//   Math.random() returns a random number lower than  1
+    // math.floor(math.random()*100);  it returns a interger btw 0 to 99 if in place of 100 we write 10 the it will return integers btw 0 to 9
+    // Math.floor(math.random()*10)+1; it will return random integer from 1 to 10 
+                                                                            //    
